@@ -78,7 +78,7 @@ void reg_access_fini(void) {
 
 struct pci_device *get_pci_device(void) {
 
-	struct pci_device *pci_dev = nullptr;
+	struct pci_device *pci_dev = NULL;
         int error;
 
         error = pci_system_init();

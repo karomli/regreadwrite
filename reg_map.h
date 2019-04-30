@@ -84,7 +84,6 @@ int reg_gen(uint32_t devid)
 		return -1;
 }
 
-
 struct reg_register_map get_register_map(uint32_t devid)
 {
         struct reg_register_map map;
