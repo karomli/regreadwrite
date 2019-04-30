@@ -97,7 +97,7 @@ int main(int argc, char** argv)
 
 	while ((ch = getopt(argc, argv, "rwh:")) != -1) {
 		switch(ch) {
-		case 'd':
+		case 'r':
 			decode_bits = 1;
 			break;
 		case 'w':
