@@ -28,7 +28,7 @@ pkg_check_modules(LIBDRM REQUIRED libdrm)
 
 add_definitions(-DLINUX)
 
-project(regread_sample)
+project(regreadwrite)
 
 include_directories(${LIBDRM_INCLUDE_DIRS})
 
